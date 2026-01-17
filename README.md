@@ -1,4 +1,4 @@
-# Bits of Good Developer Bootcamp Instructions below
+# Bits of Good Developer Bootcamp Instructions:
 
 ## Introduction
 
