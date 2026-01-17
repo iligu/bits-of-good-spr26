@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Impact Trading Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card" id="tradingCard">
+            <div class="card-face card-front">
+                <div class="card-border">
+                    <div class="pokemon-intro">
+                        <p class="intro-text">★ YOUR NEXT POKEMON CARD  ★</p>
+                    </div>
+                    
+                    <div class="card-header">
+                        <h1 class="card-name">Ilisha Gupta</h1>
+                        <div class="card-number">#001</div>
+                    </div>
+                    
+                    <div class="card-art">
+                        <img src="9 copy.jpeg" alt="Ilisha Gupta" class="card-photo">
+                    </div>
+                    
+                    <div class="stats-panel">
+                        <h2 class="stats-title">Impact Stats</h2>
+                        <div class="stat">
+                            <span class="stat-name">Empathy</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-name">Tech for Good</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-name">Leadership</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-name">Collaboration</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-name">Problem Solving</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <span class="major">Computer Science</span>
+                        <span class="divider">•</span>
+                        <span class="year">Class of 2028</span>
+                        <span class="location">Singapore</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-face card-back">
+                <div class="card-border">
+                    <div class="back-header">
+                        <h2 class="ability-title">Core Impact Focus</h2>
+                    </div>
+                    
+                    <div class="passion-section">
+                        <h3 class="section-label">Special Ability</h3>
+                        <div class="ability-name">Access Through Technology</div>
+                        <p class="ability-description">
+                            I'm passionate about using technology to bridge gaps in education and opportunity. 
+                            Growing up as a first-generation student who moved across countries, I often came across
+                            many communities who could successfully thrive through digital access and inclusion, for 
+                            instance, small mom-and-pop food shops could increase reach or children could quickly 
+                            go back to school after natural calamities. Believing that technology is an equaliser, 
+                            I work to ensure that the digital tools we build serve everyone.
+                        </p>
+                    </div>
+                                        
+                    <button class="activate-btn" id="activateBtn">
+                        <span class="btn-text">Activate Impact</span>
+                    </button>
+                    
+                    <div class="hidden-message" id="hiddenMessage">
+                        Congratulations!
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="flip-btn" id="flipBtn">
+            <span class="flip-icon">↻</span>
+            <span class="flip-text">Flip Card</span>
+        </button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
